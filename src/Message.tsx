@@ -1,6 +1,6 @@
 function Message() {
 
-    let name = "Gaspar";
+    let name = "World";
     return <h1>Hello {name}</h1>;
 }
 
