@@ -1,7 +1,7 @@
-import Message from './Message';
+import Languages from "./components/Languages";
 
 function App(){
-  return <div><Message /></div>;
+  return <div><Languages /></div>;
 }
 
 export default App;

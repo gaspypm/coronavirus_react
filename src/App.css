@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+html {
+  background-color: #2f308b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #2f308b !important;
+}
+
+header > h1 {
+  color: #25272E;
   text-align: center;
+  font-family: Asap, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#id {
+  display: none;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title {
+  margin: 2% auto;
+  text-align: center;
+  color: white;
+  font-size: 500%;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 14px #00000040;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#en, #fr, #es, #de, #nl, #nb {
+  margin: 2%;
+  border: 3px solid white;
+  text-align: center;
+  width: auto;
+  padding: 20px;
+  color: white;
+  font-size: 500%;
+  font-family: Asap, sans-serif;
+  transition: all 0.3s ease;
+  display: block;
+  text-shadow: 0px 0px 14px #00000040;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+#en:hover, #fr:hover, #es:hover, #de:hover, #nl:hover, #nb:hover {
+  cursor: pointer;
+  background: #140069;
 }
