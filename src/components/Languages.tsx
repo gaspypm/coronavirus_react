@@ -1,3 +1,7 @@
+import "./App.css";
+
+import setID from "./IDSetter";
+
 function Languages() {
 	let languages = [
 		{ id: "en", name: "English" },
@@ -9,10 +13,6 @@ function Languages() {
 	];
 	let selectedLanguage = 0;
 
-	const setLanguageID = (id: String) => {
-		localStorage.setItem("language", id.toString());
-	};
-
 	return (
 		<>
 			<h1 id="title">Language</h1>
@@ -22,7 +22,7 @@ function Languages() {
 						className={selectedLanguage === index ? "active" : undefined}
 						id={language.id}
 						key={language.id}
-						onClick={() => setLanguageID(language.id)}
+						onClick={() => setID("language", language.id)}
 					>
 						{language.name}
 					</li>
