@@ -1,5 +1,3 @@
-import { MouseEvent } from "react";
-
 function Languages() {
 	let languages = [
 		{ id: "en", name: "English" },

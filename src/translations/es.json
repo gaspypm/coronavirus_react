@@ -1,0 +1,12 @@
+{
+    "title": "Seleccione el sector:",
+    "level": "Nivel",
+    "home": "Casa",
+    "pharmacy": "Farmacia",
+    "hospital": "Hospital",
+    "supermarket": "Supermercado",
+    "school": "Escuela",
+    "bank": "Banco",
+    "lab": "Laboratorio",
+    "zoo": "Zoológico"
+  }
