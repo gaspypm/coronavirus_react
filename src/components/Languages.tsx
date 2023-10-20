@@ -1,6 +1,5 @@
-import "./App.css";
-
 import setID from "./IDSetter";
+import translations from "./Translations";
 
 function Languages() {
 	let languages = [
@@ -12,6 +11,8 @@ function Languages() {
 		{ id: "nb", name: "Norsk" },
 	];
 	let selectedLanguage = 0;
+
+	console.log(translations);
 
 	return (
 		<>

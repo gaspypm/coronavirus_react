@@ -1,9 +1,9 @@
-import enTranslations from "@translations/en.json";
-import frTranslations from "@translations/fr.json";
-import esTranslations from "@translations/es.json";
-import deTranslations from "@translations/de.json";
-import nlTranslations from "@translations/nl.json";
-import nbTranslations from "@translations/nb.json";
+import enTranslations from "/src/translations/en.json";
+import frTranslations from "/src/translations/fr.json";
+import esTranslations from "/src/translations/es.json";
+import deTranslations from "/src/translations/de.json";
+import nlTranslations from "/src/translations/nl.json";
+import nbTranslations from "/src/translations/nb.json";
 
 const translations = {
 	en: enTranslations,
