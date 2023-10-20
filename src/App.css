@@ -33,10 +33,6 @@ header > h1 {
   font-family: Asap, sans-serif;
 }
 
-#id {
-  display: none;
-}
-
 #title {
   margin: 2% auto;
   text-align: center;
@@ -49,6 +45,7 @@ header > h1 {
 
 #en, #fr, #es, #de, #nl, #nb {
   margin: 2%;
+  margin-left: auto;
   border: 3px solid white;
   text-align: center;
   width: auto;
